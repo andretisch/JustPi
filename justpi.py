@@ -13,4 +13,5 @@ sum(1/Decimal(16)**k *
 """
 
 elapsed_time = timeit.timeit(code_to_test,number=1)
+print('Start count 10M in secomds:')
 print(elapsed_time)
